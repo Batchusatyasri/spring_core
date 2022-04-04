@@ -65,7 +65,7 @@ public class WorkerController {
 	@GetMapping("/delete")
 	public String delete() {
 		try {
-			workerRepo.delete(9);
+			workerRepo.delete(10);
 			return "Record deleted successfully";
 		} catch(SQLException e) {
 			e.printStackTrace();
